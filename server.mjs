@@ -3,7 +3,7 @@ import morgan from 'morgan';
 import cors from "cors";
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://hamzakhn:<password>@cluster0.oz5mb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://hamza:hamza@cluster0.oz5mb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 const User = mongoose.model('User', {
   name: String,
   email: String,
